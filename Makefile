@@ -92,7 +92,7 @@ all:
 .PHONY: all
 
 # Set and export the version string
-export BR2_VERSION := 2022.02
+export BR2_VERSION := 2024.01
 # Actual time the release is cut (for reproducible builds)
 BR2_VERSION_EPOCH = 1646777000
 
@@ -766,11 +766,11 @@ endif
 		{ echo "ERROR: we shouldn't have a /etc/ld.so.conf.d directory"; exit 1; } || true
 	mkdir -p $(TARGET_DIR)/etc
 	( \
-		echo "NAME=Buildroot"; \
+		echo "NAME=Buildroot3DS"; \
 		echo "VERSION=$(BR2_VERSION_FULL)"; \
-		echo "ID=buildroot"; \
+		echo "ID=buildroot3ds"; \
 		echo "VERSION_ID=$(BR2_VERSION)"; \
-		echo "PRETTY_NAME=\"Buildroot $(BR2_VERSION)\"" \
+		echo "PRETTY_NAME=\"Buildroot3DS $(BR2_VERSION)\"" \
 	) >  $(TARGET_DIR)/usr/lib/os-release
 	ln -sf ../usr/lib/os-release $(TARGET_DIR)/etc
 
