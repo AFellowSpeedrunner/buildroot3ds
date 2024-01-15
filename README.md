@@ -13,4 +13,4 @@ To build Buildroot3DS, here is what you do (you'll need to be on Linux, WSL hasn
 8) once fully compiled with the 3DS kernel, have fun!
 
 
-Buildroot3DS is based off the ["buildroot"](https://github.com/linux-3ds/buildroot) repository from the ["Linux for 3DS" team](https://github.com/linux-3ds) and the [original Buildroot](https://github.com/buildroot/buildroot) repository
+Buildroot3DS is based off the ["buildroot"](https://github.com/linux-3ds/buildroot) repository from the ["Linux for 3DS" team](https://github.com/linux-3ds) and the [original Buildroot](https://github.com/buildroot/buildroot) repository.
