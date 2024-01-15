@@ -1,4 +1,5 @@
-# Welcome to Buildroot3DS! This is a lightweight distro based off Buildroot made for 3DS family systems, new and old.
+# Welcome to Buildroot3DS! 
+## This is a lightweight distro based off Buildroot made for 3DS family systems, new and old.
 
 To build Buildroot3DS, here is what you do (you'll need to be on Linux, WSL hasn't been tested):
 
