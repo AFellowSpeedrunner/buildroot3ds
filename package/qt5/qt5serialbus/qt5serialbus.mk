@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-QT5SERIALBUS_VERSION = 8884c5e43df846deac5a0c7c290eeb633d6bfe32
+QT5SERIALBUS_VERSION = f9f7eee60adac72fcf6617d164e3bf61222bb5c5
 QT5SERIALBUS_SITE = $(QT5_SITE)/qtserialbus/-/archive/$(QT5SERIALBUS_VERSION)
 QT5SERIALBUS_SOURCE = qtserialbus-$(QT5SERIALBUS_VERSION).tar.bz2
 QT5SERIALBUS_DEPENDENCIES = qt5serialport

@@ -16,11 +16,15 @@ SELFTESTS_ARCH=$(NORMALIZED_ARCH)
 endif
 endif
 
-SELFTESTS_DEPENDENCIES = libcap-ng popt
+SELFTESTS_DEPENDENCIES = \
+	libcap-ng \
+	popt \
+	$(if $(BR2_PACKAGE_OPENSSL),openssl)
 
 SELFTESTS_MAKE_FLAGS = \
 	$(LINUX_MAKE_FLAGS) \
-	ARCH=$(SELFTESTS_ARCH)
+	ARCH=$(SELFTESTS_ARCH) \
+	KHDR_DIR=$(LINUX_DIR)/usr/include
 
 # O must be redefined here to overwrite the one used by Buildroot for
 # out of tree build. We build the selftests in $(LINUX_DIR)/tools/selftests and
