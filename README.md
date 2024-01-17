@@ -1,6 +1,13 @@
 # Welcome to Buildroot3DS! 
 ## This is a lightweight distro based off Buildroot made for 3DS family systems, new and old.
 
+### WARNING!
+This is a branch that contains a version of Buildroot3DS that was compiled on an older version of Buildroot from 2021 and an older version of the armv6-eabihf toolchain. This may not have up to date security patches or the latest software.
+Please use the master repo instead!
+
+-Keyboard
+
+### Build instructions
 To build Buildroot3DS, here is what you do (you'll need to be on Linux, WSL hasn't been tested):
 
 1) download the cross-compile toolchain [here](https://toolchains.bootlin.com/downloads/releases/toolchains/armv6-eabihf/tarballs/armv6-eabihf--glibc--bleeding-edge-2021.11-1.tar.bz2) and extract it to your /opt folder.
