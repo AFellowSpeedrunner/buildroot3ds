@@ -7,7 +7,7 @@ To build Buildroot3DS, here is what you do (you'll need to be on Linux, WSL hasn
 
 1) download the cross-compile toolchain [here](https://toolchains.bootlin.com/downloads/releases/toolchains/armv6-eabihf/tarballs/armv6-eabihf--glibc--bleeding-edge-2023.11-1.tar.bz2) and extract it to your /opt folder.
 1) run 'git clone https://github.com/AFellowSpeedrunner/buildroot3ds.git' and cd into the folder after downloading.
-2) rename "Hey! I'm a config file! Rename me to .config locally to load my config data!" to '.config'. don't worry if it disappears, this normal.
+2) rename "Hey! I'm a config file! Rename me to .config locally to load my config data!" to '.config'. don't worry if it disappears, this is normal.
 3) run 'make menuconfig' and adjust it to your liking. do not change the build options though.
 5) run 'make'.
 6) wait while it compiles.
