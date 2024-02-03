@@ -798,7 +798,6 @@ menu "Lua libraries/modules"
 endmenu
 endif
 	source "package/micropython/Config.in"
-	source "package/micropython-lib/Config.in"
 	source "package/moarvm/Config.in"
 	source "package/mono/Config.in"
 if BR2_PACKAGE_MONO
@@ -1847,6 +1846,7 @@ menu "JSON/XML"
 	source "package/libbson/Config.in"
 	source "package/libfastjson/Config.in"
 	source "package/libjson/Config.in"
+	source "package/libjwt/Config.in"
 	source "package/libroxml/Config.in"
 	source "package/libucl/Config.in"
 	source "package/libxml2/Config.in"
