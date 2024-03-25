@@ -31,7 +31,6 @@ board/chromebook/snow/sign.sh Shellcheck
 board/ci20/patches/uboot/0001-mips-Remove-default-endiannes.patch Upstream
 board/cubietech/cubieboard2/post-image.sh Shellcheck
 board/freescale/common/imx/imx8-bootloader-prepare.sh Shellcheck
-board/freescale/common/imx/post-image.sh Shellcheck
 board/freescale/common/mxs/post-image.sh Shellcheck
 board/freescale/imx6sabre/patches/uboot/0001-mx6qsabre_common-boot-Linux-to-init-in-mfgtools-mode.patch Upstream
 board/friendlyarm/nanopi-r2s/post-build.sh Shellcheck
@@ -72,8 +71,6 @@ board/pine64/rock64/patches/uboot/0001-Makefile-rk3328-needs-itb-image-to-boot-p
 board/pine64/rock64/post-build.sh Shellcheck
 board/pine64/rockpro64/post-build.sh Shellcheck
 board/qemu/aarch64-sbsa/assemble-flash-images Shellcheck
-board/qemu/microblazebe-mmu/0001-net-xilinx-xemaclite-add-2.00.b-revision.patch Upstream
-board/qemu/microblazeel-mmu/0001-net-xilinx-xemaclite-add-2.00.b-revision.patch Upstream
 board/qemu/x86/post-build.sh Shellcheck
 board/qemu/x86_64/post-build.sh Shellcheck
 board/radxa/rockpi-n8/post-build.sh Shellcheck
@@ -178,7 +175,6 @@ package/bandwidthd/0001-src-bandwidthd.h-fix-build-with-gcc-10.patch Upstream
 package/bash/0001-input.h-add-missing-include-on-stdio.h.patch Upstream
 package/bash/0002-parse.y-fix-compilation-for-non-multibyte-builds.patch Upstream
 package/bash/0003-configure-invert-condition-for-strtoimax-builtin.patch Upstream
-package/bayer2rgb-neon/0001-add-some-_always_inline_-annotations.patch Upstream
 package/bc/0001-bc-use-MAKEINFO-variable-for-docs.patch Upstream
 package/bc/0002-notice-read-and-write-errors-on-input-and-output.patch Upstream
 package/bc/0003-dc-fix-exit-code-of-q-command.patch Upstream
@@ -197,11 +193,7 @@ package/berkeleydb/0001-cwd-db_config.patch Upstream
 package/berkeleydb/0002-atomic_compare_exchange.patch Upstream
 package/bind/0001-cross.patch Upstream
 package/bind/S81named Indent Shellcheck Variables
-package/binutils/2.39/0001-sh-conf.patch Upstream
-package/binutils/2.39/0002-poison-system-directories.patch Upstream
-package/binutils/2.39/0003-bfd-elf32-or1k-fix-building-with-gcc-version-5.patch Upstream
 package/bird/0001-configure.ac-fix-build-with-autoconf-2.70.patch Upstream
-package/bitcoin/0001-src-randomenv.cpp-fix-build-on-uclibc.patch Upstream
 package/bmx7/0001-Fix-schedule.c-378-36-error-SIOCGSTAMP-undeclared.patch Upstream
 package/bmx7/0002-Fix-linking-error.patch Upstream
 package/bmx7/0003-Reorder-includes-to-avoid-ethhdr-collision.patch Upstream
@@ -227,10 +219,8 @@ package/c-icap/0001-Required-fixes-to-compile-and-run-under-cygwin.patch Upstrea
 package/c-icap/S96cicap Indent Shellcheck Variables
 package/ca-certificates/0001-mozilla-certdata2pem.py-make-cryptography-module-opt.patch Upstream
 package/cache-calibrator/0001-Fix-conflicting-round-function.patch Upstream
-package/cairo/0001-fix-nofork-build.patch Upstream
-package/cairo/0002-ft-Use-FT_Done_MM_Var-instead-of-free-when-available-in-cairo_ft_apply_variation.patch Upstream
-package/cairo/0003-_arc_max_angle_for_tolerance_normalized-fix-infinite.patch Upstream
-package/cairo/0004-Fix-mask-usage-in-image-compositor.patch Upstream
+package/cairo/0001-_arc_max_angle_for_tolerance_normalized-fix-infinite.patch Upstream
+package/cairo/0002-Fix-mask-usage-in-image-compositor.patch Upstream
 package/caps/0001-Fix-stdint-types-with-musl.patch Upstream
 package/cdrkit/0001-no-rcmd.patch Upstream
 package/cdrkit/0002-define-__THROW-to-avoid-build-issue-with-musl.patch Upstream
@@ -344,10 +334,6 @@ package/ebtables/0003-configure.ac-add-option-enable-kernel-64-userland-32.patch
 package/ecryptfs-utils/0001-musl.patch Upstream
 package/ecryptfs-utils/0002-openssl110.patch Upstream
 package/ecryptfs-utils/0003-fix-parallel-build-issue.patch Upstream
-package/efivar/0001-Allow-build-with-uClibc.patch Upstream
-package/efivar/0002-gcc.specs-drop-Werror.patch Upstream
-package/efivar/0003-efivar-isolate-makeguids-host-tool-build.patch Upstream
-package/efivar/0004-efisecdb-fix-build-with-musl-libc.patch Upstream
 package/efl/0001-ecore_evas-engines-drm-meson.build-use-gl_deps-as-en.patch Upstream
 package/efl/0002-ecore_evas-engines-drm-meson.build-fix-gl_drm-includ.patch Upstream
 package/efl/0003-ecore_fb-fix-build-with-tslib.patch Upstream
@@ -473,9 +459,7 @@ package/genromfs/0001-build-system.patch Sob Upstream
 package/gensio/0001-Fix-missing-EVP_PKEY_ED25519-build-error-on-libressl.patch Upstream
 package/gerbera/S99gerbera Indent
 package/giblib/0001-fix-imlib2-detection.patch Upstream
-package/giflib/0001-Makefile-add-targets-to-manage-static-building.patch Upstream
 package/git-crypt/0001-fix-build-with-libressl-3.5.0.patch Upstream
-package/glog/0001-added-emscripten-support.patch Upstream
 package/glorytun/0001-Add-support-for-Apple-silicon.patch Upstream
 package/glorytun/0002-aegis256.c-fix-aarch64-build-with-uclibc.patch Upstream
 package/gnu-efi/0001-Make.defaults-don-t-override-ARCH-when-cross-compili.patch Upstream
@@ -594,7 +578,6 @@ package/libatasmart/0001-strpool-cross-flags.patch Upstream
 package/libavl/0001-fix-makefile.patch Upstream
 package/libb64/0001-Integer-overflows.patch Upstream
 package/libb64/0002-Initialize-C++-objects.patch Upstream
-package/libblockdev/0001-Provide-replacement-function-for-strerror_l.patch Upstream
 package/libcdaudio/0001-libcdaudio-enable-autoreconf.patch Upstream
 package/libcec/0001-cecloader-h-fix-null-return.patch Upstream
 package/libcgi/0001-CMakeLists.txt-honour-BUILD_TESTING.patch Upstream
@@ -680,7 +663,6 @@ package/liboping/0004-Fix-compile-error-on-GCC-7.patch Upstream
 package/liboping/0005-src-oping.c-always-use-s-style-format-for-printf-sty.patch Upstream
 package/libp11/0001-src-p11_attr.c-fix-build-with-gcc-4.8.patch Upstream
 package/libplatform/0001-cmake-require-c-11-as-the-minimum-standard.patch Upstream
-package/libpng/0001-Disable-pngfix-and-png-fix-itxt.patch Upstream
 package/libpthsem/0001-fix-build-on-linux-3.x-host.patch Upstream
 package/libressl/0001-always-expose-SSL_OP_NO_TLSv1_3.patch Upstream
 package/libroxml/0001-src-roxml_mem.h-add-missing-extern.patch Upstream
@@ -728,7 +710,6 @@ package/libvpx/0001-vpx_mem-vpx_mem.h-Fix-compilation-with-uClibc.patch Upstream
 package/libwebsock/0001-Switch-to-use-pkg-config-to-detect-libevent-and-open.patch Upstream
 package/libwebsock/0002-fix-ssl.patch Upstream
 package/libwebsock/0003-fix-incorrect-inline.patch Upstream
-package/libwebsockets/0001-lib-tls-CMakeLists.txt-fix-build-without-threads.patch Upstream
 package/libyuv/0001-i386-sse2.patch Upstream
 package/lighttpd/0001-Modify-the-default-lighttpd-configuration-file-to-ha.patch Upstream
 package/lighttpd/S50lighttpd EmptyLastLine Indent Shellcheck Variables
@@ -901,9 +882,6 @@ package/nginx/0008-src-os-unix-ngx_linux_config.h-only-include-dlfcn.h-.patch Up
 package/nginx/0009-auto-os-linux-fix-build-with-libxcrypt.patch Upstream
 package/nginx/0010-Allow-forcing-of-endianness-for-cross-compilation.patch Upstream
 package/nginx/S50nginx Indent Variables
-package/ngrep/0001-Fix-typo-in-configure-in-when-testing-for-use_pcre.patch Upstream
-package/ngrep/0002-Check-for-libnet_init-in-configure-in.patch Upstream
-package/ngrep/0003-fix-disable-tcpkill.patch Upstream
 package/nilfs-utils/0001-nilfs_cleanerd-link-dynamically.patch Upstream
 package/nmap/0001-libdnet-wrapper-configure.patch Upstream
 package/nodejs/nodejs-src/0001-add-qemu-wrapper-support.patch Upstream
@@ -983,18 +961,6 @@ package/openvmtools/shutdown Shellcheck
 package/openvpn/S60openvpn Indent Shellcheck Variables
 package/oprofile/0001-musl.patch Upstream
 package/opusfile/0001-Propagate-allocation-failure-from-ogg_sync_buffer.patch Upstream
-package/oracle-mysql/0000-ac_cache_check.patch Upstream
-package/oracle-mysql/0001-configure-ps-cache-check.patch Upstream
-package/oracle-mysql/0002-use-new-readline-iface.patch Upstream
-package/oracle-mysql/0003-ac_stack_direction-is-unset.patch Upstream
-package/oracle-mysql/0004-Fix-gen_lex_hash-execution.patch Upstream
-package/oracle-mysql/0005-bison_3_breaks_mysql_server_build.patch Upstream
-package/oracle-mysql/0006-no-force-static-build.patch Upstream
-package/oracle-mysql/0007-dont-install-in-mysql-directory.patch Upstream
-package/oracle-mysql/0008-fix-type-conversion.patch Upstream
-package/oracle-mysql/0009-gcc7.patch Upstream
-package/oracle-mysql/0010-fix-build-without-zlib.patch Upstream
-package/oracle-mysql/S97mysqld Shellcheck Variables
 package/owfs/S55owserver Shellcheck Variables
 package/owfs/S60owfs Shellcheck Variables
 package/owl-linux/0001-fix-for-linux-3.3.x.patch Upstream
@@ -1062,18 +1028,12 @@ package/ptpd2/0002-ntp_isc_md5-rename-EVP_MD_CTX-into-PTPD_EVP_MD_CTX.patch Upst
 package/ptpd2/0003-Solve-issue-25-Removing-type-U64-from-net-snmp-relat.patch Upstream
 package/ptpd2/S65ptpd2 Indent Shellcheck Variables
 package/pulseaudio/0001-shm.c-use-_Static_assert-instead-of-static_assert-fo.patch Upstream
-package/pulseaudio/0002-build-sys-Fix-atomic-support-detection.patch Upstream
-package/pulseaudio/0003-build-sys-Add-missing-libatomic_ops-dependencies.patch Upstream
-package/pulseaudio/0004-meson.build-fix-build-without-C.patch Upstream
 package/pulseaudio/S50pulseaudio ConsecutiveEmptyLines EmptyLastLine Indent Variables
 package/pulseview/0001-Replace-obsolete-deprecated-Qt-methods.patch Upstream
 package/pulseview/0002-Fix-broken-build-due-to-C-template-behind-C-linkage.patch Upstream
 package/pulseview/0003-Support-glibmm-2.68.patch Upstream
 package/python-aiohttp-remotes/0001-Fix-flit_core-build-requires-backend.patch Upstream
 package/python-automat/0001-Remove-uneeded-dependency-to-wheel.patch Upstream
-package/python-crossbar/0001-Avoid-intentional-syntax-error.patch Upstream
-package/python-crossbar/0002-requirements-min.txt-drop-indirect-dependencies.patch Upstream
-package/python-crossbar/0003-crossbar-webservice-wap-use-markupsafe-instead-of-we.patch Upstream
 package/python-daphne/0001-remove-pytest-runner-requirement.patch Upstream
 package/python-pybind/0001-pybind11-commands.py-support-STAGING_DIR.patch Upstream
 package/python-pylibftdi/0001-do-not-use-find-library.patch Upstream
@@ -1184,9 +1144,7 @@ package/rtorrent/0001-Added--disable-execinfo-option-to-configure.patch Upstream
 package/rtty/0001-CMakeLists.txt-prefer-pkg_check_modules.patch Upstream
 package/rubix/0001-dont-use-legacy-functions.patch Upstream
 package/rubix/0002-misc-fixes.patch Sob Upstream
-package/ruby/0001-Fix-build-with-LibreSSL-3-5.patch Upstream
-package/rygel/0001-build-Add-man_pages-build-options.patch Upstream
-package/rygel/0002-meson.build-fix-g_ir_compiler-calls.patch Upstream
+package/rygel/0001-meson.build-fix-g_ir_compiler-calls.patch Upstream
 package/rygel/S99rygel Indent Shellcheck Variables
 package/s6-linux-init/0001-configure-add-D_GNU_SOURCE.patch Upstream
 package/s6-linux-utils/0001-src-s6-linux-utils-rngseed.c-fix-build-with-glibc.patch Upstream
@@ -1302,7 +1260,6 @@ package/tinyalsa/0001-include-time.h-before-asound.h.patch Upstream
 package/tinycbor/0001-Makefile-add-DISABLE_WERROR.patch Upstream
 package/tinycompress/0001-wave-add-time.h-missing-header-inclusion.patch Upstream
 package/tinydtls/0001-sha2-sha2.c-fix-build-on-big-endian.patch Upstream
-package/tinymembench/0001-arm-fix-build-on-Thumb-only-architectures.patch Upstream
 package/tinyproxy/0001-prevent-junk-from-showing-up-in-error-page-in-invalid-requests.patch Upstream
 package/tinyxml/0001-In-stamp-always-advance-the-pointer-if-p-0xef.patch Upstream
 package/tpm2-abrmd/S80tpm2-abrmd Indent Shellcheck Variables
@@ -1403,11 +1360,9 @@ package/wilc-driver/0005-Fix-cast-warnings.patch Upstream
 package/wipe/0001-musl.patch Upstream
 package/wireless_tools/0001-remove-bzero.patch Upstream
 package/wireshark/0001-cmake-lemon-wipe-CMAKE_-EXE_LINKER_FLAGS-SYSROOT-if-.patch Upstream
-package/wlroots/0001-Add-feature-macros-to-more-C-files-.patch Upstream
 package/woff2/0001-CMake-Handle-multiple-libraries-being-returned-for-B.patch Upstream
 package/wpa_supplicant/0001-build-re-enable-options-for-libwpa_client.so-and-.patch Upstream
 package/wpa_supplicant/ifupdown.sh Shellcheck
-package/wpewebkit/0001-FELightningNEON.cpp-fails-to-build-NEON-fast-path-se.patch Upstream
 package/x11r7/xapp_luit/0001-posix-openpt.patch Upstream
 package/x11r7/xapp_xdm/S99xdm Indent Variables
 package/x11r7/xcursor-transparent-theme/0001-fix-symlink.patch Upstream
@@ -1469,9 +1424,6 @@ package/zip/0006-unix-configure-borrow-the-LFS-test-from-autotools.patch Upstrea
 package/zip/0007-timezone.c-needs-time.h-fixes-musl-compile.patch Upstream
 package/zip/0008-fix-musl-static-build.patch Upstream
 package/zmqpp/0001-Allow-building-shared-or-static-library-only.patch Upstream
-package/znc/0001-LibreSSL-3.5-opaqued-structures.patch Upstream
-package/znc/0002-Fix-build-with-libressl.patch Upstream
-package/znc/0003-DH_set0_pqg-and-DH_get0_key-have-existed-since-Libre.patch Upstream
 package/zziplib/0001-implant-ZZIP_LIBLATEST-for-zzip_lib.patch Upstream
 support/dependencies/check-host-asciidoc.sh Shellcheck
 support/dependencies/check-host-cmake.sh Shellcheck
