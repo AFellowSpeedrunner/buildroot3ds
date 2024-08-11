@@ -13,5 +13,7 @@
 *.rej
 *~
 *.pyc
-
+.tmpconfig*
 !.github
+ccache
+.buildroot-ccache
