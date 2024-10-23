@@ -4,7 +4,10 @@
 #
 ################################################################################
 
-LIBZENOH_PICO_VERSION = 0.10.1-rc
+# This 1.0.0 version is really newer than 1.0.0.12, so please don't
+# update 1.0.0 even if release-monitoring.org claims it's a newer
+# version.
+LIBZENOH_PICO_VERSION = 1.0.0
 LIBZENOH_PICO_SITE = $(call github,eclipse-zenoh,zenoh-pico,$(LIBZENOH_PICO_VERSION))
 LIBZENOH_PICO_LICENSE = Apache-2.0 or EPL-2.0
 LIBZENOH_PICO_LICENSE_FILES = LICENSE

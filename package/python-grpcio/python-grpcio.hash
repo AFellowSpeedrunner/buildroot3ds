@@ -1,5 +1,5 @@
 # md5, sha256 from https://pypi.org/pypi/grpcio/json
-md5  480bfb7435426de392a883e6516aae79  grpcio-1.60.0.tar.gz
-sha256  2199165a1affb666aa24adf0c97436686d0a61bc5fc113c037701fb7c7fceb96  grpcio-1.60.0.tar.gz
+md5  e8adaa7345b99791542c7ca4245f30c0  grpcio-1.66.2.tar.gz
+sha256  563588c587b75c34b928bc428548e5b00ea38c46972181a4d8b75ba7e3f24231  grpcio-1.66.2.tar.gz
 # Locally computed sha256 checksums
 sha256  590198e3f305f2c347fde64d637c65492bbef554db6c8364e149cd375e3797ee  LICENSE
